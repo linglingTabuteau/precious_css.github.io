@@ -1,0 +1,120 @@
+.ringOrange {
+  border: 3px orange solid;
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px orange;
+  height: 50px;
+  width: 50px;
+}
+
+.ringGold {
+  border: 15px #f4c242 solid;
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px #f4c242;
+  height: 150px;
+  width: 150px;
+}
+
+.ringGray-1 {
+  width: 30px;
+  height: 30px;
+  border: 6px gray solid;
+  border-radius: 50%;
+  margin-left: -15px;
+}
+
+.ringGray-2 {
+  width: 60px;
+  height: 60px;
+  border: 6px gray solid;
+  border-radius: 50%;
+  margin-left: -15px;
+}
+
+.ringGray-3 {
+  width: 90px;
+  height: 90px;
+  border: 6px gray solid;
+  border-radius: 50%;
+  margin-left: -15px;
+}
+
+.ringGray-4 {
+  width: 120px;
+  height: 120px;
+  border: 6px gray solid;
+  border-radius: 50%;
+  margin-left: -15px;
+}
+
+.ringGray-5 {
+  width: 150px;
+  height: 150px;
+  border: 6px gray solid;
+  border-radius: 50%;
+  margin-left: -15px;
+}
+
+.ringGray-6 {
+  width: 180px;
+  height: 180px;
+  border: 6px gray solid;
+  border-radius: 50%;
+  margin-left: -15px;
+}
+
+
+  header {
+    height: 80px;
+}
+  /* police titre */
+  @font-face {
+    font-family: "anironcregular";
+    src: url("FontAniron/anicm___-webfont.woff2") format("woff2"), url("FontAniron/anicm___-webfont.woff") format("woff"), url("FontAniron/anicm___.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  /*police Text*/
+  @font-face {
+    font-family: "party_businessregular";
+    src: url("FontPartyBusiness/partybusiness-webfont.woff2") format("woff2"), url("FontPartyBusiness/partybusiness-webfont.woff") format("woff"), url("FontPartyBusiness/partybusiness-webfont.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  body {
+    background-image: url("bg_light.png");
+  }
+  .row{
+    margin:140px;
+  }
+  p,h2, h3, h4, .navbar a{
+    font-family: 'anironcregular', Arial, Helvetica, sans-serif;
+}
+.navbar-nav li a{
+    color:white;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+}
+
+  /* footer */
+#footer ul{
+    list-style: none;
+    vertical-align: top;
+    margin-left:50px;
+}
+#footer ul li{
+    font-family: 'anironcregular', Arial, Helvetica, sans-serif;
+    color:white;
+}
+#footer{
+    background-color:#f48341;
+    margin-bottom: 0;
+}
+
+.reward figure{
+    margin-left: 40px;
+}
+.hunters{
+    margin-bottom:15px;
+}
