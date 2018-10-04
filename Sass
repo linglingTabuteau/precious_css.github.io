@@ -1,0 +1,22 @@
+@mixin ring ($height, $width, $size, $color, $shadow){
+  border:$size $color solid;
+  border-radius:50%;
+  box-shadow:$shadow $shadow 4px $color;
+  height:$height;
+  width:$width;
+}
+.ringOrange{
+  @include ring(50px,50px,3px, orange,2px);
+}
+.ringGold{
+  @include ring(150px,150px,15px,#f4c242,2px);
+}
+@for $i from 1 through 6 {
+    .ringGray-#{$i} {
+        width: 30px*$i;
+        height:30px*$i;
+        border:6px gray solid;
+        border-radius:50%;
+        margin-left: -15px;
+    }
+}
